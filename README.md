@@ -1,8 +1,8 @@
-# GAPS: Geometric Attention-based Networks for Peptide Binding Sites Identification by the Transfer Learning Approach
+# GPS: a Geometric Attention-based Network for Peptide Binding Site Identification by the Transfer Learning Approach
 
 ![overviwe](util/overview.png)
 
-GAPS demonstrates state-of-the-art (SOTA) performance in the protein-peptide binding sites prediction which also exhibits exceptional performance across several expanded experiments including predicting the apo protein-peptide, the protein-cyclic peptide, and the AlphaFold-predicted protein-peptide binding sites, revealing that the GAPS is a powerful, versatile, stable method suitable for diverse binding site predictions
+GPS demonstrates state-of-the-art (SOTA) performance in the protein-peptide binding sites prediction which also exhibits exceptional performance across several expanded experiments including predicting the apo protein-peptide, the protein-cyclic peptide, and the AlphaFold-predicted protein-peptide binding sites, revealing that the GPS is a powerful, versatile, stable method suitable for diverse binding site predictions
 
 ## Installation
 
@@ -40,4 +40,4 @@ The confidence scores of the binding sites are colored by the gradient from the 
 ## Reference
 
 **If you find this code and idea useful in your research, please consider citing:**
-Zhu, C.; Zhang, C.; Shang, T.; Zhang, C.; Zhai, S.; Su, Z.; Duan, H. GAPS: Geometric Attention-Based Networks for Peptide Binding Sites Identification by the Transfer Learning Approach. bioRxiv December 26, 2023, p 2023.12.26.573336. [https://doi.org/10.1101/2023.12.26.573336](https://doi.org/10.1101/2023.12.26.573336)
+Zhu, C.; Zhang, C.; Shang, T.; Zhang, C.; Zhai, S.; Su, Z.; Duan, H. GPS: Geometric Attention-Based Networks for Peptide Binding Sites Identification by the Transfer Learning Approach. bioRxiv December 26, 2023, p 2023.12.26.573336. [https://doi.org/10.1101/2023.12.26.573336](https://doi.org/10.1101/2023.12.26.573336)
