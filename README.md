@@ -1,18 +1,18 @@
-# GPS: a Geometric Attention-based Network for Peptide Binding Site Identification by the Transfer Learning Approach
+# GPSite: a Geometric Attention-based Network for Peptide Binding Site Identification by the Transfer Learning Approach
 
 ![overviwe](util/overview.png)
 
-GPS demonstrates state-of-the-art (SOTA) performance in the protein-peptide binding sites prediction which also exhibits exceptional performance across several expanded experiments including predicting the apo protein-peptide, the protein-cyclic peptide, and the AlphaFold-predicted protein-peptide binding sites, revealing that the GPS is a powerful, versatile, stable method suitable for diverse binding site predictions
+GPSite demonstrates state-of-the-art (SOTA) performance in the protein-peptide binding sites prediction which also exhibits exceptional performance across several expanded experiments including predicting the apo protein-peptide, the protein-cyclic peptide, and the AlphaFold-predicted protein-peptide binding sites, revealing that the GPSite is a powerful, versatile, stable method suitable for diverse binding site predictions
 
 ## Installation
 
 Download the source code and install the dependencies:
 
 ```bash
-git clone https://github.com/hongliangduan/GPS.git
-cd GPS
-conda create -n gps python=3.10
-conda activate gps
+git clone https://github.com/hongliangduan/GPSite.git
+cd GPSite
+conda create -n GPSite python=3.10
+conda activate GPSite
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 conda install pandas scikit-learn tqdm h5py gemmi 
 ```
@@ -40,4 +40,4 @@ The confidence scores of the binding sites are colored by the gradient from the 
 ## Reference
 
 **If you find this code and idea useful in your research, please consider citing:**
-Zhu, C.; Zhang, C.; Shang, T.; Zhang, C.; Zhai, S.; Su, Z.; Duan, H.GPS: a Geometric Attention-based Network for Peptide Binding Site Identification by the Transfer Learning Approach. bioRxiv December 26, 2023, p 2023.12.26.573336. [https://doi.org/10.1101/2023.12.26.573336](https://doi.org/10.1101/2023.12.26.573336)
+Zhu, C.; Zhang, C.; Shang, T.; Zhang, C.; Zhai, S.; Su, Z.; Duan, H.GPSite: a Geometric Attention-based Network for Peptide Binding Site Identification by the Transfer Learning Approach. bioRxiv December 26, 2023, p 2023.12.26.573336. [https://doi.org/10.1101/2023.12.26.573336](https://doi.org/10.1101/2023.12.26.573336)
